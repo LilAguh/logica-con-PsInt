@@ -8,4 +8,5 @@ Algoritmo Ejercicio9
 	valido = opcion == 1 o opcion == 2 o opcion == 3
 	Imprimir 'La seleccion ', opcion, ' es una opcion valida?: ',valido
 	
+	
 FinAlgoritmo
