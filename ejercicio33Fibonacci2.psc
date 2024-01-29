@@ -5,15 +5,15 @@ Algoritmo ejercicio33Fibonacci2
 	numeroProvisorio = 1
 	
 	Repetir
-		Imprimir 'Introduzca la cantidad de calificaciones:'
-		Leer numeroElementos
+		Imprimir 'Cuantos numeros de la serie de fibonacci deseas:'
+		leer numeroElementos
 		si numeroElementos <= 0 Entonces
-			Imprimir 'La cantidad de calificaciones deben ser 1 o superiores'
+			Imprimir 'Para saber la cantidad de elementos dentro de la serie debes introducir un numero positivo'
 		FinSi
 	Hasta Que numeroElementos > 0
 	
-	Imprimir 'Cuantos numeros de la serie de fibonacci deseas:'
-	leer numeroElementos
+	
+	
 	Dimension serie[numeroElementos]
 	
 	serie[0] = numeroInicial
