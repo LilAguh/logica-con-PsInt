@@ -29,6 +29,7 @@ Algoritmo Matrices
 	Imprimir 'Valor 1 [0, 0] = ',matriz[0, 0]
 	
 	Para f = 0 Hasta filas - 1 Con Paso 1 Hacer
+		Imprimir 'Fila: ', f + 1
 		para c = 0 Hasta columnas - 1 Con Paso 1 Hacer
 			Imprimir matriz[f, c]
 		FinPara
