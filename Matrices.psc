@@ -27,4 +27,10 @@ Algoritmo Matrices
 	
 	// accedemos al valor de la columna 0 y fila 0
 	Imprimir 'Valor 1 [0, 0] = ',matriz[0, 0]
+	
+	Para f = 0 Hasta filas - 1 Con Paso 1 Hacer
+		para c = 0 Hasta columnas - 1 Con Paso 1 Hacer
+			Imprimir matriz[f, c]
+		FinPara
+	Fin Para
 FinAlgoritmo
