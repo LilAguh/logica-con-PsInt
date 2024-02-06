@@ -51,18 +51,26 @@ Algoritmo ejercicio40
 	
 	numeroMayor = matriz[0,0]
 	numeroMenor = matriz[0,0]
+	columnaMayor = 0
+	columnaMenor = 0
+	filaMayor = 0
+	filaMenor = 0
 	
 	Para f = 0 Hasta filas - 1 Con Paso 1 Hacer
 		para c = 0 Hasta columnas - 1 Con Paso 1 Hacer
 			si matriz[f,c] > numeroMayor
 				numeroMayor = matriz[f,c]
+				filaMayor = f + 1
+				columnaMayor = c + 1
 			sino 
 				si matriz[f,c] < numeroMenor
 					numeroMenor = matriz[f,c]
-					finsi
+					filaMenor = f + 1
+					columnaMenor = c + 1
+				finsi
 			FinSi
 		FinPara
 	Fin Para
-	Imprimir 'El numero mayor de la matriz es: ',numeroMayor
-	Imprimir 'El numero menor de la matriz es: ',numeroMenor
+	Imprimir 'El numero mayor es ',numeroMayor,' y se encuentra en la fila ',filaMayor,' y la columna ', columnaMayor
+	Imprimir 'El numero menor es ',numeroMenor,' y se encuentra en la fila ',filaMenor,' y la columna ', columnaMenor
 FinAlgoritmo
