@@ -8,7 +8,7 @@ Algoritmo funcionSumar
 	
 FinAlgoritmo
 
-Funcion s = sumar(a, b)
-	s = a + b
+Funcion suma = sumar(a, b)
+	suma = a + b
 FinFuncion
 	
